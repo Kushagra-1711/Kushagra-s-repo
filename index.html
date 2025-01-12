@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+
+        }
+
+        header{
+            background-color: rgb(0, 170, 255);
+            color: black;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e6e4e4;
+        }
+
+        nav a {
+            color: rgb(0, 174, 255);
+            text-decoration:solid;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        h2{
+            color: black;
+        }
+
+        #home{
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(0, 174, 255);
+            border-radius: 10px;
+            box-shadow: 0 4px 7px rgb(0, 213, 255);
+        }
+
+        #navigation{
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(0, 179, 255);
+            border-radius: 10px;
+            box-shadow: 0 4px 7px rgb(0, 213, 255);
+
+        }
+
+        #blogpage{
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(0, 179, 255);
+            border-radius: 10px;
+            box-shadow: 0 4px 7px rgb(0, 213, 255);
+
+            
+        }
+
+        #contact-form{
+            
+            background-color: #36394b;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            
+
+        }
+        
+        #contact-form input, #contact-form textarea, #contact-form button {
+            width: 100%;
+            margin: 10px 0px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            
+        }
+
+        #name, #email, #message{
+            padding: 10px;
+            left: 10px;
+            right: 10px;
+        }
+        
+        #contact-form input, #contact-form textarea{
+            background-color: rgb(221, 222, 222);
+        }
+        
+        #contact-form button {
+            background-color: #4c9daf;
+            color: white;
+            cursor: pointer;
+        }
+
+        #contact-form button:hover {
+            background-color: #92a045;
+        }
+        
+        footer{
+
+            text-align: center;
+            background-color: rgb(0, 191, 255);
+            padding: 10px;
+            
+        }
+
+        #contact-me{
+            color: aliceblue;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my Website!</h1>
+        <P>I am Kushagra Dwivedi <br>
+            Reg No: 23BCE07333<br>
+            Explore the sections of the website created by me below, this is header section and contains the various sections below</P>
+    </header>
+
+    <nav>
+        <a href = "Activity_1.html">Home</a>
+        <a href = "#Navigation" >Navigation</a>
+        <a href= "blog.html">Blog</a>
+        <a href = "#contact-form" >Contact</a>
+    </nav>
+
+    <section id = "home">
+    <h2 color="black">Home Page</h2>
+    <p>
+        Welcome to my website! This platform showcases a collection of my creative work, projects, and blog posts. 
+        It is designed to provide a user-friendly interface for exploring and connecting. Feel free to navigate and 
+        explore the sections!
+    </p>
+    </section>
+    
+    <section id="navigation">
+        <h2>Navigation Page</h2>
+        <p>This page would enable you to navigate between the sections of the website</p>
+        
+        
+    </section>
+    
+    <section id = "blogpage">
+        <h2>Blog Page</h2>
+        <p>Within the navigation bar of the blog page contains a video that will enable you to see the methodology of Web Hosting demosntrated by me under the google forms
+            so that you can see the procedure and apply to your website. </p>
+
+
+
+
+    </section>
+
+    <section id = "contact">
+        
+        <form id = "contact-form" action="thankyou.html">
+            <h2 color = "blue" id = "contact-me">Contact Me</h2>
+            <label for = "name">Name</label>
+            <input type = "text" id = "name" name = "name" placeholder = "Enter your name" required>
+
+            <label for = "email">Email</label>
+            <input type = "email" id = "email" name = "email" placeholder="Place your email" required>
+
+            <label for = "message">Your Message</label>
+            <input type = "message" id = "message" rows = "5" placeholder="Write your message here" required>
+
+            <button type = "submit">Submit</button>
+        </form>
+
+    </section>
+    
+
+    <footer>
+        <p>© 2025 My Website | All Rights Reserved</p>
+    </footer>
+
+
+</body>
+</html>
